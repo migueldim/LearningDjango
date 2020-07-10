@@ -26,5 +26,6 @@ urlpatterns = [
     # Uncomment the next line to enable the admin:
     path('admin/', admin.site.urls),
     url(r'^$', EntryApp.views.index, name = 'index'),
-    url(r'^home$', EntryApp.views.index, name = 'home')
+    url(r'^home$', EntryApp.views.index, name = 'home'),
+    url(r'^about$', EntryApp.views.about, name = 'about')
 ]

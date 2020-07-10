@@ -45,12 +45,15 @@
     <Compile Include="LearningDjango\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EntryApp\static\site.css" />
     <Content Include="EntryApp\templates\FirstEntry\index.html" />
+    <Content Include="EntryApp\templates\FirstEntry\about.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EntryApp\" />
     <Folder Include="EntryApp\migrations\" />
+    <Folder Include="EntryApp\static\" />
     <Folder Include="EntryApp\templates\" />
     <Folder Include="EntryApp\templates\FirstEntry\" />
     <Folder Include="LearningDjango\" />
