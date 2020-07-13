@@ -48,6 +48,7 @@
     <Content Include="EntryApp\static\site.css" />
     <Content Include="EntryApp\templates\FirstEntry\index.html" />
     <Content Include="EntryApp\templates\FirstEntry\about.html" />
+    <Content Include="EntryApp\templates\FirstEntry\layout.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
